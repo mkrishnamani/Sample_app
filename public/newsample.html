@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title><LIST OF STAFFS></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript" src="Scripts/microtemplates.js"></script>
+    <script type="text/javascript" src="list1.js"></script>
+  </head>
+  <body>
+    <form name="competency" action="RegistrationForm" >
+      <button id="addnewitem" >Add New Staff </button>
+    </form>
+    <fieldset>
+      <p><font size="3" face="verdana" color="blue">
+	  <legend>list of Staff ids </legend></font>
+	<div id="content"></div>
+      </p>
+      
+</form>
+</fieldset>	
+
+<script id="list" type="text/html">
+  <table><% for(i=0;i<adminlist.length;i++) { %>			
+	    
+	    <tr><td><a id="adminid"><%= adminlist[i].Name %> </a>
+	    </td></tr>
+		<% } %>
+  </table>
+</form>
+</body>
+</html>

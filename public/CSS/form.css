@@ -1,0 +1,100 @@
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+
+}
+p, h1, container, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- Format ----------- */
+.format{
+margin:0 auto;
+width:900px;
+padding:14px;
+
+}
+/* ----------- form ----------- */
+#container div{
+padding: 4px 0 4px 0;
+font-size: 12px;
+
+}
+#container li label{
+text-align:left;
+}
+#container{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+}
+#container h1{
+font-size:22px;
+font-weight:bold;
+margin-bottom:8px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom: 8px;
+}
+#container h4{
+font-size:16px;
+text-align:center;
+padding: 6px 0 6px 0;
+}
+#container label { 
+/*float: left; 
+padding: 0; 
+margin: 5px 0 0; 
+text-align: left; */
+font-size: 12px;
+
+}
+#container td{
+font-size:12px;
+}
+#container td.header{
+background:#7C9AC0;
+font-size: 16px;
+}
+#container input, textarea, select {
+width:auto;  
+margin:5px 0 0 10px;
+padding: 4px;
+/*float: left; */
+}
+#container span.error{
+color: #e46c6e;
+}
+#container input.error{
+background: #f8dbdb;
+border-color: #e46c6e;
+}
+#container label.error{
+text-align: left;
+}
+#container div.displayErrors{
+background: #f8dbdb;
+border-color: #e46c6e;
+}
+/*#container .button {
+width:120px;
+height:31px;
+background:#666666;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+}*/
+#container #edit{
+float: left;
+margin-left: 300px;
+
+}
+#container #deleteForm{
+float:right;
+margin-right: 300px;
+}
+
+/*#container .button a{
+text-decoration:none;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+}*/
